@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    background: linear-gradient(to right, black, purple);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif ;
+}
+
+h1{
+    padding: 8px;
+    font-size: 60px;
+}
+
+.middle{
+    transform: translateZ(-50%);
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.text{
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hidden{
+    max-width: 0;
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
+
+.text:hover .hidden{
+    opacity: 1;
+    max-width: 1em;    
+}
+
+.container-esquerda{
+    padding: 25px 0;
+    margin: 0 45px;
+    width: 700px;
+}
+
+.container-esquerda h2{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.container-esquerda p{
+    font-size: 16px;
+    max-width: 700px;
+}
+
+.container-esquerda button{
+    width: 324px;
+    height: 59px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+}
+
+.container-esquerda button:hover{
+    background: purple;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.container-direita{
+    background: #7026d9;
+    width: 452px;
+    max-height: 601px;
+    border-radius: 10px;
+    margin-top: 115px;
+}
+
+.container-direita .pergunta{
+    text-align: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-direita .resposta{
+    background: #fff;
+    width: 452px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.container-direita h2{
+
+}
+
+.container-direita p{
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+    padding-left: 25px;
+}
+
+
+
