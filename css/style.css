@@ -57,31 +57,36 @@ h1{
 }
 
 .container-esquerda button{
-    width: 324px;
+    width: 300px;
     height: 59px;
     margin: 10px;
     font-size: 16px;
     font-weight: bold;
     background: none;
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid rgba(255, 255, 255, 0.137);
     border-radius: 10px;
-    transition: all 0.5s ease-in;
+    transition: 0.5s ease-in-out;
 }
 
 .container-esquerda button:hover{
     background: purple;
     letter-spacing: 3px;
     cursor: pointer;
-    transition: all 0.5s ease-out;
 }
 
 .container-direita{
-    background: #7026d9;
+ 
     width: 452px;
     max-height: 601px;
     border-radius: 10px;
     margin-top: 115px;
+}
+
+.container-direita .card{
+    background: rgb(119, 7, 184);
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .container-direita .pergunta{
@@ -100,11 +105,10 @@ h1{
     align-items: center;
     justify-content: center;
     border-radius: 0 0 10px 10px;
-
 }
 
-.container-direita h2{
-
+.blur{
+    filter: blur(4.5px);
 }
 
 .container-direita p{
@@ -113,6 +117,3 @@ h1{
     color: #000;
     padding-left: 25px;
 }
-
-
-
